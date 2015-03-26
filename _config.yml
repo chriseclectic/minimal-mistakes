@@ -1,8 +1,9 @@
 # Site wide configuration
 
-title:            Site Title
+title:            CJWood.com
 locale:           en_US
-url:              
+url:              #cjwood.com
+share: false
 
 
 # Jekyll configuration
@@ -26,23 +27,31 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Christopher J. Wood
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
+  bio: "Institute for Quantum Computing,
+        University of Waterloo,
+        ON, Canada
+        "
+  email: chris@cjwood.com
+  disqus-shortname:
   twitter: #username
   facebook: #username
   google:
     plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+    analytics: UA-61207542-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  arxiv: wood_c_2
+  researchgate: christopher_wood
+  googlescholar: #F6qMAXEAAAAJ
+  mendeley: #christopher-wood1
+  scirate: #cjwood
+  github: chriseclectic
+  stackexchange:
+  linkedin: cjwoodphd
   xing: #username
   instagram: #username
   lastfm: #username
@@ -54,7 +63,7 @@ owner:
   youtube: #username
   soundcloud: #username
   weibo: #username
-  flickr: #username
+  flickr: chriseclectic
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
